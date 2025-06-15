@@ -18,7 +18,7 @@ const App: React.FC = () => {
 	return (
 		<>
 			<EasterEggModal />
-			<BrowserRouter>
+			<BrowserRouter basename="/onni82-ts">
 				<Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} menuClose={menuClose} />
 				<main>
 					<Routes>
