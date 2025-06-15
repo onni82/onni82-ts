@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  base: '/onni82-ts',
+	plugins: [react()],
+	base: '/onni82-ts',
 })
